@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Public = () => {
     const content = (
@@ -25,10 +23,6 @@ const Public = () => {
         </section>
 
     )
-
     return content
-
-
 }
-
 export default Public
